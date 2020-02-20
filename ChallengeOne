@@ -1,0 +1,22 @@
+public class ChallengerOne {
+	Integer int1;
+    String Sean;
+    Account acc;
+    
+    public void SetValues(){
+        int1 = 12;
+        sean  = 'My name is Sean';
+        acc = new account();
+        acc.name = 'Sean';
+        
+    }
+    
+	public void GetValues(){
+        system.debug(int1);
+        system.debug(Sean);
+        system.debug(acc.Name);
+        
+        
+    }
+    
+}
