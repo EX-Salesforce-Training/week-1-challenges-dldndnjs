@@ -1,0 +1,16 @@
+public class ChallengerThree {
+	Account acc;
+    
+    public void SetAccount(){
+        acc = new account();
+       
+        acc.Name = 'Sean';
+        acc.AnnualRevenue = 1000;
+        acc.Description = 'pay';
+    }
+	
+    
+    public void GetAccount(){
+        system.debug(acc);
+    }
+}
