@@ -1,0 +1,45 @@
+public class ChallengerTwo {
+	
+	 List<Integer> IntegerList = new List<Integer>();
+	 Boolean isTrue = true;
+    
+    
+    public ChallengerTwo(){
+        IntegerList.add(1);
+        IntegerList.add(2);
+        IntegerList.add(3);
+        IntegerList.add(4);
+        IntegerList.add(5);
+        IntegerList.add(6);
+        IntegerList.add(7);
+        IntegerList.add(8);
+        IntegerList.add(9);
+        IntegerList.add(10);
+		
+    }    
+    
+    public void ForLoop(){
+        for(Integer s: IntegerList){
+            system.debug(s);
+        }
+        
+    }
+		
+    public void WhileLoop(){
+		Integer I = 0;
+        while(i <= 10){
+            system.debug(i);
+            i++;
+        }        
+    }
+	
+    public void Iffy(){
+        if(false) {
+            system.debug('false');
+        }   else if(true) {           
+            system.debug('true');
+        }     
+    }
+
+
+}
